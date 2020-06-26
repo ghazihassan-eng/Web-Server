@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOTEL BT | WELCOME</title>
+	<script src="https://kit.fontawesome.com/5eb3f4492a.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	padding: 0px 20px;
+	max-width: 1500px;
+}
+h1,h2,h3{
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p{
+	margin: 10px 0px;
+}
+.clr{
+	clear: both;
+}
+.text-primary{
+	color: coral;
+}
+.text-back{
+	background-color:coral;
+	color: black; 
+}
+.lead{
+	font-size:20px;
+	
+}
+.current{
+	background-color: grey;
+	color: black;
+}
+.py-1{padding: 10px ;}
+.py-2{padding: 20px ;}
+.py-3{padding: 30px ;}
+.btn{
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	background-color: black;
+	padding:10px 10px;
+	border:none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.btn:hover{
+	color: black;
+	background-color: darkgrey;
+}
+.bg-dark{
+	background-color: #333;
+	color: white;
+}
+.fix{
+	position: fixed;
+}
+#navbar{
+	background-color: black;
+	color: white;
+	overflow: auto;
+	
+	width: 100%;
+}
+#navbar h1{
+	padding: 20px;
+	float: left;
+}
+#navbar a{
+	color: white;
+}
+#navbar ul{
+	float: right;
+	list-style: none;
+
+}
+#navbar ul li{
+	float: left;
+}
+#navbar ul li a{
+	text-align: center;
+	display: block;
+	padding: 30px;
+
+}
+#navbar ul li a:hover{
+	background-color: darkgrey;
+	color: black;
+}
+#showcase{
+	
+	
+	height: 700px;
+	background-attachment: fixed;
+	background-color: #543864;
+}
+#showcase .showcase-content{
+	color: black;
+	text-align: center;
+	padding-top: 200px;
+	background-color: #543864;
+
+}
+.showcase-content h1{
+	font-size: 60px;
+}
+#homeinfo{
+	height: 400px;
+	width: 100%;
+}
+
+#homeinfo .homeinfo-content{
+	
+	text-align: center;
+	padding: 60px 30px;
+	width: 100%;
+	height: 100%;
+	
+
+}
+.box{
+	width: 33.3%;
+	float: left;
+	padding: 50px;
+	text-align: center;
+}
+.box i{
+	padding-bottom: 10px;
+	
+}
+.main-footer{
+	text-align: center;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+	<header>
+		
+		<nav id="navbar" class="fix">
+			<div class="container">
+				<h1>HBT</h1>
+				<ul>
+					<li><a href="index.html" class="current">HOME</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div id="showcase">
+			<div class="container">
+				<div class="showcase-content">
+					<h1><span class="text-primary"> ENJOY</span> YOUR STAY</h1>
+					<p class="lead">In non-functional linguistics, a sentence is a textual<br> unit consisting of one or more words that are grammatically linked. </p>
+					<a class="btn" href="#">ABOUT OUR HOTEL</a>
+
+				</div>
+				
+			</div> 
+		</div>
+
+	</header>
+	<div id="homeinfo" class="bg-dark">
+		
+		<div class="homeinfo-content">
+			<center>
+			<h2><span class="text-primary">THE HISTORY </span><br> OF OUR HOTEL</h2>
+			<p>In non-functional linguistics, a sentence is a textual unit consisting of one or more words that are grammatically linked.In non-functional linguistics, a sentence is a textual unit consisting of one or more words that are grammatically linked. </p>
+			<a class="btn" href="#">READ MORE</a></center>
+		</div>
+	</div>
+	<section class="features">
+		<div class="box">
+			<i class="fas fa-hotel fa-3x"></i>
+			<h3>Good Location</h3>
+			<p>An essay is generally a short piece of writing outlining the writer's perspective or story.</p>
+		</div>
+		<div class="box bg-dark">
+			<i class="fas fa-utensils fa-3x"></i>
+			<h3>Free Meals</h3>
+			<p>An essay is generally a short piece of writing outlining the writer's perspective or story.</p>
+		</div>
+		<div class="box">
+			<i class="fas fa-dumbbell fa-3x"></i>
+			<h3>Fitness Room</h3>
+			<p>An essay is generally a short piece of writing outlining the writer's perspective or story.</p>
+		</div>
+	</section>
+
+	<div class="clr"></div> 
+	<footer class="main-footer">
+		<p>Hotel BT &copy; All Copyright Reserved 2019</p>
+	</footer>
+
+</body>
+</html>
